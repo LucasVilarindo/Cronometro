@@ -1,0 +1,42 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  padding: 150px;
+
+}
+
+.container h2{
+  font-size: 50px;
+  font-weight: bold;
+  display: flex;
+  justify-content:center ;
+}
+
+.cronometro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.cronometro button{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: none; 
+  outline: none;
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.horario{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 30px;
+  font-size: 35px;
+}
